@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">BN</div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" target="_blank">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>B.V. Nihar Reddy <span>React • Tailwind • Node Js</span></h1>
+        <p>I’m a frontend engineer who builds accessible, production-ready web apps with clean UI and great performance.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="C:\Users\nihar\Downloads\WhatsApp Image 2025-11-12 at 8.58.00 PM.jpeg" alt="Hero image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I build modern web applications using React and NodeJS. My focus is on component-driven development, performance, and polished user interfaces.</p>
+        <ul>
+          <li>Responsive web apps with accessibility in mind</li>
+          <li>Component libraries & design systems</li>
+          <li>Performance optimization</li>
+          <li>Testing (Jest, React Testing Library)</li>
+        </ul>
+        <a href="C:\Users\nihar\Downloads\B.V.Nihar Reddy Resume .pdf" class="btn">Download Resume</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Selected Projects</h2>
+      <p>A small selection of projects — click to view details.</p>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="C:\Users\nihar\Downloads\hotel.png" alt="Project One" />
+          <h3>Hotel Management System</h3>
+          <p>Developed an interactive web-based system to manage hotel bookings and operations efficiently with a user-friendly interface and robust database management.</p>
+        </div>
+        <div class="project-card">
+          <img src="C:\Users\nihar\Downloads\blockchainnnnnnnnn.png" alt="Project Two" />
+          <h3>Blockchain-Based Voting System</h3>
+          <p>Designed a decentralized voting platform ensuring transparency, security, and immutability using smart contracts and blockchain technology</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get in touch</h2>
+      <p>Interested in working together? Send a message.</p>
+      <form action="mailto:niharreddy2004@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2025 Your Name. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        <a href="mailto:niharreddy2004@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
